@@ -1,0 +1,42 @@
+
+        body {
+           background-color:rgba(13, 5, 41, 0.923) ; 
+           color:black ; 
+           font-family: Arial;
+        }
+        .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+        .title{
+            font-size: 50px;
+            font-weight: bold;
+
+        }
+
+        .move-icon{
+            height: 150px;
+        }
+
+        .move-button{
+            background-color: transparent;
+            border: 3px solid white;
+            width: 200px;
+            height: 200px;
+            border-radius: 60px;
+            cursor: pointer;
+        }
+
+        .js-score{
+            font-size: 30px;
+            color: aliceblue;
+        }
+
+        .delete-button{
+            font-size: 30px;
+        }
+
